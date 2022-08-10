@@ -1,53 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= playersData[0].title %></title>
-    <link rel='stylesheet' href='players.css' />
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' />
-  </head>
-  <body>
-    <main>
-      <h1><%= playersData[0].title %><img class="icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" height="100" width="100"></h1><button type="button"> <img class="icon" src="https://cdn-icons.flaticon.com/png/512/4408/premium/4408787.png?token=exp=1660142816~hmac=6c0095892be0e15daaecbe413ca3aca4" width="50" height="50"></button><br>
-      <div class="container">
+
+<head>
+  <title>
+    <%= playersData[0].title %>
+  </title>
+  <link rel='stylesheet' href='players.css' />
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' />
+</head>
+
+<body>
+  <main>
+    <ul>
+      <li><a class="active" href="/futfamous">Home</a></li>
+      <li><a href="/edit">Edit</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+    <h1><img class="icon1" src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" height="80" width="80">
+      <%= playersData[0].title %>
+    </h1><br>
+    <div class="container">
       <div class="jogadores">
-      <img src="<%= playersData[1].image %>" alt="jogador de futebol" width="300px" height="200px">
-      <p class="name"><%= playersData[1].name %></p>
-      <p><%= playersData[1].club %></p>
-      <p><%= playersData[1].followers %></p>
+        <img src="<%= playersData[1].image %>" alt="jogador de futebol" width="300px" height="200px">
+        <p class="name">
+          <%= playersData[1].name %>
+        </p>
+        <p>
+          <%= playersData[1].club %>
+        </p>
+        <p>
+          <%= playersData[1].followers %>
+        </p>
       </div>
       <div class="jogadores">
-      <img src="<%= playersData[2].image %>" alt="jogador de futebol" width="300px" height="200px">
-      <p class="name"><%= playersData[2].name %></p>
-      <p><%= playersData[2].club %></p>
-      <p><%= playersData[2].followers %></p>
+        <img src="<%= playersData[2].image %>" alt="jogador de futebol" width="300px" height="200px">
+        <p class="name">
+          <%= playersData[2].name %>
+        </p>
+        <p>
+          <%= playersData[2].club %>
+        </p>
+        <p>
+          <%= playersData[2].followers %>
+        </p>
       </div>
       <div class="jogadores">
-      <img src="<%= playersData[3].image %>" alt="jogador de futebol" width="300px" height="200px">
-      <p class="name"><%= playersData[3].name %></p>
-      <p><%= playersData[3].club %></p>
-      <p><%= playersData[3].followers %></p>
+        <img src="<%= playersData[3].image %>" alt="jogador de futebol" width="300px" height="200px">
+        <p class="name">
+          <%= playersData[3].name %>
+        </p>
+        <p>
+          <%= playersData[3].club %>
+        </p>
+        <p>
+          <%= playersData[3].followers %>
+        </p>
       </div>
-      </div><br>
-      <div class="container2">
+    </div><br>
+    <div class="container2">
       <div class="jogadores">
-      <img src="<%= playersData[4].image %>" alt="jogador de futebol" width="300px" height="200px">
-      <p class="name"><%= playersData[4].name %></p>
-      <p><%= playersData[4].club %></p>
-      <p><%= playersData[4].followers %></p>
+        <img src="<%= playersData[4].image %>" alt="jogador de futebol" width="300px" height="200px">
+        <p class="name">
+          <%= playersData[4].name %>
+        </p>
+        <p>
+          <%= playersData[4].club %>
+        </p>
+        <p>
+          <%= playersData[4].followers %>
+        </p>
       </div>
       <div class="jogadores">
-      <img src="<%= playersData[5].image %>" alt="jogador de futebol" width="300px" height="200px">
-      <p class="name"><%= playersData[5].name %></p>
-      <p><%= playersData[5].club %></p>
-      <p><%= playersData[5].followers %></p>
+        <img src="<%= playersData[5].image %>" alt="jogador de futebol" width="300px" height="200px">
+        <p class="name">
+          <%= playersData[5].name %>
+        </p>
+        <p>
+          <%= playersData[5].club %>
+        </p>
+        <p>
+          <%= playersData[5].followers %>
+        </p>
       </div>
       <div class="jogadores">
         <img src="<%= playersData[6].image %>" alt="jogador de futebol" width="300px" height="200px">
-        <p class="name"><%= playersData[6].name %></p>
-        <p><%= playersData[6].club %></p>
-        <p><%= playersData[6].followers %></p>
-        </div>
+        <p class="name">
+          <%= playersData[6].name %>
+        </p>
+        <p>
+          <%= playersData[6].club %>
+        </p>
+        <p>
+          <%= playersData[6].followers %>
+        </p>
       </div>
-    </main>
-  </body>
+    </div>
+  </main>
+</body>
+
 </html>

@@ -8,6 +8,8 @@ body {
     background: linear-gradient(to right, #B06AB3, #4568DC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    margin: 0;
+
 }
 
 p {
@@ -25,13 +27,14 @@ h1 {
     font-size: 70px;
     letter-spacing: 1px;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 1em rgb(128, 128, 255), 0 0 0.2em rgb(45, 143, 255);
+    text-shadow: 0 1px 2px rgb(0, 0, 0);
+    margin-top: 30px;
 }
 
 
 img {
     border-radius: 5px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #333;
 }
 
 .name {
@@ -41,31 +44,54 @@ img {
     font-weight: bold;
 }
 
-.jogadores{
+.jogadores {
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-    
-.container{
+
+.container {
     display: flex;
     justify-content: center;
 }
 
-.container2{
+.container2 {
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
-button{
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-}
 
-.icon{
+.icon1 {
     border: 0px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 27px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: large;
+}
+
+li a:hover {
+    background-color: #111;
+}

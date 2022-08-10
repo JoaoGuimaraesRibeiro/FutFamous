@@ -1,0 +1,38 @@
+body {
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 27px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: large;
+}
+
+li a:hover {
+    background-color: #111;
+}
