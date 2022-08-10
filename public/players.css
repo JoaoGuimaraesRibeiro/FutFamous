@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin);
+
+body {
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p {
+    color: white;
+    font-family: Palanquin;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 70px;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(128, 128, 255), 0 0 0.2em rgb(45, 143, 255);
+}
+
+
+img {
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.name {
+    font-size: 25px;
+    color: black;
+    font-family: Palanquin;
+    font-weight: bold;
+}
+
+.jogadores{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+    
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
